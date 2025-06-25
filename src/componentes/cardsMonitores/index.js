@@ -10,7 +10,7 @@ export default function CardMonitores
 
     return(
 
-        <TouchableOpacity style={styles.viewFilmes} onPress={()=> navigation.navigate('Monitores', {imagem, nome, preco, sinopse})}>
+        <TouchableOpacity style={styles.viewFilmes} >
             <Image style={styles.images} source={imagem} />
             <Text style={styles.titulo}> {nome} </Text>
             <Text style={styles.titulo}> {preco} </Text>

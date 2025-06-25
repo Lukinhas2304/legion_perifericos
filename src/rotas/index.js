@@ -2,11 +2,11 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import Home from "../paginas/home";
-import CardFones from "../componentes/cardsFones";
-import CardMonitores from "../componentes/cardsMonitores";
-import CardMousePads from "../componentes/cardsMousePads";
-import CardMouses from "../componentes/cardsMouses";
-import CardTeclados from "../componentes/cardsTeclados";
+import CardFones from "../componentes/cardsFones/index";
+import CardMonitores from "../componentes/cardsMonitores/index";
+import CardMousePads from "../componentes/cardsMousePads/index";
+import CardMouses from "../componentes/cardsMouses/index";
+import CardTeclados from "../componentes/cardsTeclados/index";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();

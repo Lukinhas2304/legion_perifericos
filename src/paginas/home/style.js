@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-      backgroundColor: '#141a28',
+      backgroundColor: 'rgb(0, 20, 51)',
       width: '100%',
       height: '100%'
     },
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         borderRadius:'15px',
         borderWidth:'3px',
         borderColor:'white',
-        backgroundColor: '#141a45',
+        backgroundColor: 'white',
         marginBottom:'30px'
     }
 });

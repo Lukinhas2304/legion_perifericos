@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         alignItems: 'center',
         justifyContent: 'center',
-        borderColor: '#ff4556',
+        borderColor: 'black',
         borderWidth: 2,
     },
     nomeCategoria: {

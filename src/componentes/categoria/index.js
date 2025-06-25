@@ -6,7 +6,7 @@ import categorias from '../../categoria.js';
 import CardFones from '../cardsFones/index.js';
 import CardMonitores from '../cardsMonitores/index.js';
 import CardMousePads from '../cardsMousePads/index.js';
-import CardMouses from '../cardsMouses/index.js';
+import CardMouses from '.././cardsMousePads/index.js';
 import CardTeclados from '../cardsTeclados/index.js';
 import fones from '../../fones.js';
 import monitores from '../../monitores.js';
@@ -15,7 +15,7 @@ import mouses from '../../mouses.js';
 import teclados from '../../teclados.js';
 
 const Categoria = () => {
-    const [categoriaSelecionada, setCategoriaSelecionada] = useState('Perifericos');
+    const [categoriaSelecionada, setCategoriaSelecionada] = useState('Teclados');
 
     const lidarCategoriaSelecionada = (categoria) => {
         setCategoriaSelecionada(categoria);
