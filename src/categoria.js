@@ -9,14 +9,10 @@ const categorias = [
     },
     {
         id: '3',
-        nome: 'Mousepads',
-    },
-    {
-        id: '4',
         nome: 'Monitores',
     },
     {
-        id: '5',
+        id: '4',
         nome: 'Fones',
     }
 ]

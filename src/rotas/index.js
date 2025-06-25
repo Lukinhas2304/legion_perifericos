@@ -4,7 +4,6 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import Home from "../paginas/home";
 import CardFones from "../componentes/cardsFones/index";
 import CardMonitores from "../componentes/cardsMonitores/index";
-import CardMousePads from "../componentes/cardsMousePads/index";
 import CardMouses from "../componentes/cardsMouses/index";
 import CardTeclados from "../componentes/cardsTeclados/index";
 
@@ -18,7 +17,6 @@ function StackRoutes() {
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Teclados" component={CardTeclados} options={{ headerShown: true }} />
       <Stack.Screen name="Mouses" component={CardMouses} options={{ headerShown: true }} />
-      <Stack.Screen name="MousePads" component={CardMousePads} options={{ headerShown: true }} />
       <Stack.Screen name="Monitores" component={CardMonitores} options={{ headerShown: true }} />
       <Stack.Screen name="Fones" component={CardFones} options={{ headerShown: true }} />
     </Stack.Navigator>

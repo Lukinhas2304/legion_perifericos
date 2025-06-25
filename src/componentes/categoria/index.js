@@ -5,12 +5,10 @@ import styles from './style.js';
 import categorias from '../../categoria.js';
 import CardFones from '../cardsFones/index.js';
 import CardMonitores from '../cardsMonitores/index.js';
-import CardMousePads from '../cardsMousePads/index.js';
-import CardMouses from '.././cardsMousePads/index.js';
+import CardMouses from '../cardsMouses/index.js';
 import CardTeclados from '../cardsTeclados/index.js';
 import fones from '../../fones.js';
 import monitores from '../../monitores.js';
-import mousepads from '../../mousepads.js';
 import mouses from '../../mouses.js';
 import teclados from '../../teclados.js';
 
@@ -97,32 +95,7 @@ const Categoria = () => {
 
                 </View>
             )}
-
-            {categoriaSelecionada === 'MousePads' && (
-                <View style={{width:"100%"}}>
-
-                    <Text style={styles.titulo}>MousePads</Text>
-
-                    <FlatList
-
-                        showsHorizontalScrollIndicator={false}
-
-                        horizontal = {true}
-
-                        data = {mousepads}
-
-                        keyExtractor={(item) => item.id}
-                        renderItem={({item}) => (
-
-                        <CardMousePads imagem = {item.imagem} nome = {item.nome} preco = {item.preco} sinopse = {item.sinopse} />
-                        
-                        )}
-
-                    />
-
-                </View>
-            )}
-
+            
             {categoriaSelecionada === 'Monitores' && (
                 <View style={{width:"100%"}}>
 
