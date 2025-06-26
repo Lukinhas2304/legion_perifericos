@@ -6,6 +6,7 @@ import CardFones from "../componentes/cardsFones/index";
 import CardMonitores from "../componentes/cardsMonitores/index";
 import CardMouses from "../componentes/cardsMouses/index";
 import CardTeclados from "../componentes/cardsTeclados/index";
+import Desenvolvedores from "../paginas/sobre nós";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -28,6 +29,7 @@ export default function Rotas() {
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home" screenOptions={{ headerShown: false }}>
         <Drawer.Screen name="Home" component={StackRoutes} options={{ title: "Início" }} />
+        <Drawer.Screen name="Desenvolvedores" component={Desenvolvedores} options={{ title: "Sobre Nós" }} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

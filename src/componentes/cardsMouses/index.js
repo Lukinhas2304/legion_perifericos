@@ -12,7 +12,7 @@ export default function CardMouses({nome, imagem, sinopse, preco}){
         <TouchableOpacity style={styles.viewFilmes}>
             <Image style={styles.images} source={imagem} />
             <Text style={styles.titulo}> {nome} </Text>
-            <Text style={styles.titulo}> {preco} </Text>
+            <Text style={styles.preco}> {preco} </Text>
             <Text style={styles.titulo}> {sinopse} </Text>
         </TouchableOpacity>
 
